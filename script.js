@@ -1,7 +1,7 @@
 function calculatePopulation(){
 	
 	let inPop = parseFloat(prompt("Enter the initial population: "));
-	let growRate = parseFloat(prompt("Enter the growth rate (as a decimal: "));
+	let growRate = parseFloat(prompt("Enter the growth rate (as a decimal): "));
 	let time = parseFloat(prompt("Enter the time (in Hours): "));
 	
 	let finPop = Math.round(inPop * Math.pow(Math.E,growRate * time));
